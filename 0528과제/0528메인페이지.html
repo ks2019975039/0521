@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>0528과제</title>
+<style>
+h3, li { /* 태그 이름 셀렉터 */
+	color : darkblue;
+}
+div > div > strong  { /* 자식 셀렉터 */
+	background : yellow;
+}
+body.main { /* class 셀렉터 */
+	background : aliceblue; 
+}
+#list { /* id 셀렉터 */
+	background : orange;
+}
+
+li:hover { /* 가상 클래스 셀렉터 */
+	background : aliceblue}
+</style></head>
+<body class="main">
+<h3>0528메인페이지</h3>
+<hr>
+<div> 
+	<div><strong>꿀팁</strong></div>
+	<ul id="list">
+		<li><span><h3><a href="정보1.html">정보1</a><h3><br></span></li>
+		<li><strong><h3><a href="정보2.html">정보2</a><h3><br></strong></li>
+		
+	</ul>
+	
+</div>
+</body>
+</html>
